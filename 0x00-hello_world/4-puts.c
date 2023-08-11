@@ -1,17 +1,15 @@
-#include<stdio.h>
+#include <stdio.h>
 
 /**
- * library
+ * main - start of program
  *
- * main  - start of program
+ * Description: A c program that print a string with puts function
  *
- * Description: c program that print a string with puts function
- *
- * return: 0 alwayz
+ * Return: 0 (success)
  */
 
 int main(void)
 {
-	puts("\"Programming is like building a multilingual puzzle \n");
+	puts("\"Programming is like building a multilingual puzzle");
 	return (0);
 }
