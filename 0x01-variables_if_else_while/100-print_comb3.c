@@ -27,11 +27,12 @@ int main(void)
 					putchar(',');
 					putchar(' ');
 				}
+				else
+					putchar('\n')
 			}
 			num2++;
 		}
 		num1++;
 	}
-	putchar('\n');
 	return (0);
 }
