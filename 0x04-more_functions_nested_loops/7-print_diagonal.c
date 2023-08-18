@@ -1,9 +1,9 @@
 #include "main.h"
 
 /**
- *  print_diagonal - A function that draws a diagonal line in the terminal
+ * print_diagonal - A function that draws a diagonal line in the terminal
  *
- *  @n:is the number of times the character _ should be printed
+ * @n: is the number of times the character _ should be printed
  */
 
 void print_diagonal(int n)
@@ -20,7 +20,7 @@ void print_diagonal(int n)
 		{
 			for (s = 1; s <= x; s++)
 			{
-				_putchar(' ');
+				_putchar(32);
 			}
 			_putchar(92);
 			_putchar('\n');
