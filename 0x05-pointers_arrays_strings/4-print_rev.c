@@ -1,5 +1,5 @@
 #include "main.h"
-#include <unistd.h>
+
 /**
  * print_rev - a function that prints a string in reverse,
  *followed by a new line
@@ -16,7 +16,7 @@ void print_rev(char *s)
 
 	while (r--)
 	{
-		_putchar(s[r]);
+		putchar(s[r]);
 	}
-	_putchar('\n');
+	putchar('\n');
 }
