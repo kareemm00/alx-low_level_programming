@@ -11,7 +11,7 @@ void rev_string(char *s)
 	int n, l;
 	char swap;
 
-	for (l = -1; s[l] != '\0'; l++)
+	for (l = 0; s[l] != '\0'; l++)
 	{
 
 	}
@@ -19,8 +19,8 @@ void rev_string(char *s)
 	for (n = 0; n < l / 2; n++)
 	{
 		swap = s[n];
-		s[n] = s[l - n];
-		s[l - n] = swap;
+		s[n] = s[l - n - 1];
+		s[l - n - 1] = swap;
 	}
 
 
