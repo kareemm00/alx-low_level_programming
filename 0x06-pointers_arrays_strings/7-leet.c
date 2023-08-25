@@ -10,7 +10,7 @@
 
 char *leet(char *s)
 {
-	char arr1[] = {'A', 'E', '0', 'T', 'L'};
+	char arr1[] = {'A', 'E', 'O', 'T', 'L'};
 	char arr2[] = {4, 3, 0, 7, 1};
 	char *p = s;
 	unsigned int i;
