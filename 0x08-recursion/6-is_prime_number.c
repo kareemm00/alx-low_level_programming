@@ -27,10 +27,10 @@ int is_prime_number(int n)
 
 int prime(int n, int p)
 {
-	if (n % p == 0 || n <= 1)
-		return (0);
-	else if (p >= n && n > 1)
+	if (p >= n && n > 1)
 		return (1);
+	else if (n % p == 0 || n <= 1)
+		return (0);
 	else
 		return (prime(n, p + 1));
 }
