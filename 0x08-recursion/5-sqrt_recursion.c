@@ -32,5 +32,5 @@ int root(int n, int s)
 	else if (square == n)
 		return (s);
 	else
-		return (square(n, s + 1));
+		return (root(n, s + 1));
 }
