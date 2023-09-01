@@ -24,7 +24,7 @@ int main(int argc, char *argv[])
 			if (cash >= cent[i])
 			{
 				num += cash / cent[i];
-				cash %= cent[i];
+				cash = cash % cent[i];
 				if (cash % cent[i] == 0)
 				{
 					break;
