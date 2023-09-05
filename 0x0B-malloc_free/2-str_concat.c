@@ -42,14 +42,14 @@ char *str_concat(char *s1, char *s2)
 	if (ptr == 0)
 		return (0);
 
-	for (i = 0; i <= sz1 + sz2; i++)
+	for (k = 0; k <= sz1 + sz2; k++)
 	{
-		if (i < sz1)
-			ptr[i] = s1[i];
+		if (k < sz1)
+			ptr[k] = s1[k];
 		else
-			ptr[i] = s2[i - sz1];
+			ptr[k] = s2[k - sz1];
 	}
-	ptr[i] = '\0';
+	ptr[k] = '\0';
 	return (ptr);
 
 
