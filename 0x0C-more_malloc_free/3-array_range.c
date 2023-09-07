@@ -1,4 +1,5 @@
 #include "main.h"
+#include <stdlib.h>
 
 /**
  * array_range - a function that creates an array of integers
@@ -11,7 +12,7 @@
 
 int *array_range(int min, int max)
 {
-	int *ptr, k = 0;
+	int *ptr;
 
 	if (min > max)
 		return (0);
