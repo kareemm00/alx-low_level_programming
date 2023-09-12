@@ -4,7 +4,7 @@
 /**
  * free_dog - dog free
  *
- * @d: dog woof
+ * @d: dog
  *
  * Return: void
 */
