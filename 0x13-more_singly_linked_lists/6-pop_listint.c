@@ -10,15 +10,16 @@
 
 int pop_listint(listint_t **head)
 {
-	listint_t *n;
-	int k;
+	listint_t *nod;
+	int n;
 
 	if (!head || !*head)
 		return (0);
-	n = (*head)->next;
-	k = (*head)->k;
+
+	nod = (*head)->next;
+	n = (*head)->n;
 	free(*head);
-	*head = n;
-	return (k);
+	*head = nod;
+	return (n);
 
 }
